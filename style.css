@@ -6,7 +6,7 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-rows: auto;
+  grid-template-rows: auto auto auto;
   gap: 20px;
   padding: 20px;
 }
@@ -22,26 +22,25 @@ body {
   background: white;
   padding: 20px;
   border-radius: 10px;
-  text-align: center;
-  
-  display: flex;
-  justify-content: center;
+  text-align: center; /* ВАЖНО */
 }
 
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   width: 300px;
+  margin: 0 auto;
 }
 
 .flex-container img {
   width: 100px;
   height: 100px;
   object-fit: cover;
+  display: block;
 }
 
 .broken {
-  display: none;
+  display: none !important;
 }
 
 .footer {
