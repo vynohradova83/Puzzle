@@ -40,6 +40,9 @@ body {
 
 .broken {
   display: none !important;
+  visibility: hidden;
+  width: 0;
+  height: 0;
 }
 
 .footer {
