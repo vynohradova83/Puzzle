@@ -16,26 +16,27 @@ body {
   color: white;
   padding: 20px;
   border-radius: 10px;
+  text-align: center;
 }
 
 .puzzle {
   background: white;
   padding: 20px;
   border-radius: 10px;
+  text-align: center;
 }
 
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  width: 306px;        
+  width: 300px;
   margin: auto;
-  border: 2px solid #333;
 }
 
 .flex-container img {
   width: 100px;
   height: 100px;
-  object-fit: cover;
+  display: block;
 }
 
 .broken {
