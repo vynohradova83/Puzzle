@@ -15,6 +15,7 @@ body {
   background: #222;
   color: white;
   padding: 20px;
+  text-align: center;
   border-radius: 10px;
 }
 
@@ -22,6 +23,7 @@ body {
   background: white;
   padding: 20px;
   border-radius: 10px;
+  text-align: center;
 }
 
 .flex-container {
@@ -40,9 +42,6 @@ body {
 
 .broken {
   display: none !important;
-  visibility: hidden;
-  width: 0;
-  height: 0;
 }
 
 .footer {
