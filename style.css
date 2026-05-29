@@ -27,15 +27,17 @@ body {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  width: 306px;        
-  margin: auto;
-  border: 2px solid #333;
+  width: 300px;
+  margin: 0 auto;
+  font-size: 0;
 }
 
 .flex-container img {
-  width: 102px;
-  height: 102px;
-  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
 .broken {
