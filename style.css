@@ -26,11 +26,10 @@ body {
 }
 
 .flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 306px;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  width: 300px;
   margin: 0 auto;
-  gap: 0;
 }
 
 .flex-container img {
