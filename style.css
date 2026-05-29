@@ -23,21 +23,21 @@ body {
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  
-  display: flex;
-  justify-content: center;
 }
 
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   width: 300px;
+  margin: 0 auto;
+  font-size: 0;
 }
 
 .flex-container img {
   width: 100px;
   height: 100px;
   object-fit: cover;
+  display: block;
 }
 
 .broken {
